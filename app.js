@@ -10,30 +10,30 @@ const QUEST_PARTS = {
   low: {
     titles: ["Soft Start", "Quiet Win", "Gentle Reset", "Small Spark", "Calm Drift"],
     intents: [
-      "Do one tiny action that gives your brain a signal of safety.",
-      "Interrupt numbness with low-pressure movement.",
-      "Create one visible sign that you showed up for yourself.",
+      "Do one tiny movement that gives your brain a signal of safety.",
+      "Interrupt numbness with low-pressure movement and breath.",
+      "Create one visible sign that you showed up for yourself physically and emotionally.",
       "Move from stuck to slightly unstuck in under 10 minutes.",
-      "Reconnect with your senses instead of your stress loop."
+      "Reconnect with your body instead of your stress loop."
     ],
     stepOne: [
-      "Sit near a window or doorway for 3 minutes.",
-      "Make a simple drink and hold it with both hands.",
-      "Pick one corner of your space to reset.",
-      "Stand up and stretch your shoulders slowly.",
-      "Take 10 slow breaths, eyes open."
+      "Take a gentle 5-minute walk indoors, on a balcony, or outside.",
+      "Stand up and do 2 minutes of shoulder, neck, and wrist stretches.",
+      "Put your phone away for 10 minutes and take 10 slow breaths.",
+      "Sit by a window and do a 3-minute body scan from head to toe.",
+      "Play one calm song and sway or pace slowly for the full song."
     ],
     stepTwo: [
-      "Notice 3 sounds and 3 colors around you.",
-      "Name one thing that felt hard today.",
-      "Set a 4-minute timer and do just one small task.",
-      "Open notes and type one supportive sentence to yourself.",
-      "Look at one object and describe it in detail for 30 seconds."
+      "Write 3 journal lines: what I feel, what I need, what I can do next.",
+      "Do 2 minutes of slow breathing: in for 4, out for 6.",
+      "Sketch or paint one tiny thing for 6 minutes with no pressure.",
+      "Call or voice-note one trusted friend for a short check-in.",
+      "Notice 3 sounds, 3 colors, and 3 sensations in your body."
     ],
     stepThree: [
-      "Stop on time and call it complete.",
-      "Take one sip of water and unclench your jaw.",
+      "Drink water, unclench your jaw, and call it complete.",
       "Write: \"I did something for me today.\"",
+      "Take 60 seconds to stretch your legs and back before finishing.",
       "Put one hand on your chest and breathe out longer than in.",
       "Leave one tiny sign of completion where you can see it."
     ],
@@ -49,30 +49,30 @@ const QUEST_PARTS = {
     titles: ["Momentum Quest", "Re-entry Mission", "Mood Nudge", "Steady Climb", "Clear Head Run"],
     intents: [
       "Build momentum without overwhelming yourself.",
-      "Use motion to shift out of mental fog.",
-      "Reconnect to life outside work-mode.",
+      "Use motion and breath to shift out of mental fog.",
+      "Reconnect to life outside work-mode through movement and expression.",
       "Make one experience that feels alive and human.",
-      "Do one task that restores attention and energy."
+      "Do one quest that restores attention, body energy, and connection."
     ],
     stepOne: [
-      "Take a 10-minute walk indoors or outdoors.",
-      "Play one song and move gently for its full duration.",
-      "Prep one easy nourishing snack.",
-      "Choose one small creative act: doodle, voice-note, or journal.",
-      "Step outside and feel the temperature for 2 minutes."
+      "Take a 12-minute walk outdoors or through your building.",
+      "Do 8 minutes of body movement: stretch, yoga, or light mobility.",
+      "Play two songs and keep your body moving for both.",
+      "Step outside for sunlight and walk while noticing your breathing.",
+      "Put your phone away and take a mindful walk for 10 minutes."
     ],
     stepTwo: [
-      "Find 3 textures around you: rough, smooth, soft.",
-      "Capture one photo of something unexpectedly beautiful.",
-      "Send one kind text to someone safe.",
-      "Write 3 lines: what hurt, what helped, what is next.",
-      "Set a 7-minute timer and finish one home task."
+      "Write 5 journal lines: what hurt, what helped, what matters now.",
+      "Paint or sketch for 10 minutes with zero perfection pressure.",
+      "Call a friend or loved one for a short human check-in.",
+      "Do a 5-minute guided meditation with eyes closed or soft focus.",
+      "Set a 7-minute timer and do one task while your phone stays away."
     ],
     stepThree: [
       "Pause for 30 seconds and notice how your body feels now.",
       "Drink water and take a full exhale before moving on.",
       "Say out loud: \"I kept a promise to myself.\"",
-      "Log this quest as completed.",
+      "Log this quest as completed and stretch for 60 seconds.",
       "End with one thing you are grateful you noticed."
     ],
     reflections: [
