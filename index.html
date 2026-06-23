@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quest4You - Daily Experience Generator</title>
+    <meta
+      name="description"
+      content="Quest4You offers one gentle, random daily quest to help people reconnect with life outside work."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ambient-shape shape-1" aria-hidden="true"></div>
+    <div class="ambient-shape shape-2" aria-hidden="true"></div>
+
+    <main class="app-shell">
+      <header class="hero">
+        <p class="eyebrow">Quest4You</p>
+        <h1>Making it count, Everyday!</h1>
+        <p class="lead">
+          Life is what happens when we are thinking less and moving more.
+        </p>
+      </header>
+
+      <section class="panel profile-panel" aria-labelledby="profile-title">
+        <h2 id="profile-title">Today, how much energy do you have?</h2>
+        <div class="energy-controls" role="group" aria-label="Energy selector">
+          <button class="chip" data-energy="low" type="button">Low</button>
+          <button class="chip" data-energy="medium" type="button">Medium</button>
+          <button class="chip" data-energy="high" type="button">High</button>
+        </div>
+        <p id="options-hint" class="options-hint">Choose an energy level to unlock 100+ quest options.</p>
+      </section>
+
+      <section class="panel quest-panel" aria-live="polite">
+        <div class="quest-headline-row">
+          <p class="quest-kicker">Your quest for <span id="today-label"></span></p>
+          <button id="spin-button" class="text-button" type="button" disabled>Spin for another quest</button>
+        </div>
+
+        <article class="quest-card" id="quest-card">
+          <h2 id="quest-title">Choose your energy and press Generate Quest</h2>
+          <p class="quest-intent" id="quest-intent"></p>
+          <ol id="quest-steps"></ol>
+          <p class="quest-reflect" id="quest-reflect"></p>
+        </article>
+
+        <div class="cta-row">
+          <button id="generate-button" class="primary" type="button">Generate Quest</button>
+          <button id="complete-button" class="primary" type="button">I did this quest</button>
+          <button id="skip-button" class="secondary" type="button">Not today</button>
+        </div>
+
+        <p class="microcopy" id="status-line">
+          Progress here is private and saved on this device only.
+        </p>
+      </section>
+
+      <section class="panel stats-panel">
+        <h2>Your tiny-win trail</h2>
+        <div class="stats-grid">
+          <div class="stat-tile">
+            <p class="stat-label">Completed quests</p>
+            <p class="stat-value" id="completed-count">0</p>
+          </div>
+          <div class="stat-tile">
+            <p class="stat-label">Current streak</p>
+            <p class="stat-value" id="streak-count">0</p>
+          </div>
+          <div class="stat-tile wide">
+            <p class="stat-label">Last 7 days</p>
+            <div id="week-dots" class="week-dots" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel support-panel">
+        <h2>A note of care</h2>
+        <p>
+          You wake up, you do what needs to be done: for the family, for your loved ones,
+          for work. Let this application help you do what needs to be done for you too!
+        </p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
